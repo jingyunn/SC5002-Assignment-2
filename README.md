@@ -5,15 +5,11 @@ In this project, we aim to explore and analyze two machine learning techniques: 
 # Dataset
 Class: The mushroom is classified as either edible (denoted by "e") or poisonous (denoted by "p").
 
-Cap-related Features:
-
 Cap shape: The cap can be bell-shaped (b), conical (c), convex (x), flat (f), knobbed (k), or sunken (s).
 
 Cap surface: The surface of the cap can be fibrous (f), grooved (g), scaly (y), or smooth (s).
 
 Cap color: The cap can be brown (n), buff (b), cinnamon (c), gray (g), green (r), pink (p), purple (u), red (e), white (w), or yellow (y).
-
-Gill-related Features:
 
 Gill attachment: The gills may be attached (a), descending (d), free (f), or notched (n).
 
@@ -22,8 +18,6 @@ Gill spacing: The gills can be close (c), crowded (w), or distant (d).
 Gill size: The gills can be either broad (b) or narrow (n).
 
 Gill color: The gills may be black (k), brown (n), buff (b), chocolate (h), gray (g), green (r), orange (o), pink (p), purple (u), red (e), white (w), or yellow (y).
-
-Stalk-related Features:
 
 Stalk shape: The stalk can be enlarging (e) or tapering (t).
 
@@ -37,8 +31,6 @@ Stalk color above the ring: The color above the ring can be brown (n), buff (b),
 
 Stalk color below the ring: The color below the ring can be brown (n), buff (b), cinnamon (c), gray (g), orange (o), pink (p), red (e), white (w), or yellow (y).
 
-Veil-related Features:
-
 Veil type: The veil can be partial (p) or universal (u).
 
 Veil color: The color of the veil can be brown (n), orange (o), white (w), or yellow (y).
@@ -46,8 +38,6 @@ Veil color: The color of the veil can be brown (n), orange (o), white (w), or ye
 Ring number: The mushroom may have none (n), one (o), or two (t) rings.
 
 Ring type: The ring type can be cobwebby (c), evanescent (e), flaring (f), large (l), none (n), pendant (p), sheathing (s), or zone (z).
-
-Miscellaneous Features:
 
 Bruises: The mushroom may have bruises (t) or no bruises (f).
 
