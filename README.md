@@ -3,13 +3,61 @@
 In this project, we aim to explore and analyze two machine learning techniques: Classification and Clustering, using real-world datasets. We are working with the Mushrooms dataset from a CSV file, which contains labeled data regarding various features of mushrooms, such as cap shape, cap color, stalk root, odor, etc. The main goal is to understand the strengths and weaknesses of both techniques and improve their performance through methods like Cross-validation.
 
 # Dataset
-We have selected the Mushrooms dataset, which consists of labeled and unlabeled features. The dataset contains the following columns:
+Class: The mushroom is classified as either edible (denoted by "e") or poisonous (denoted by "p").
 
-Class: The target variable, indicating whether the mushroom is poisonous (p) or edible (e).
+Cap-related Features:
 
-Cap-shape, Cap-surface, Cap-color, etc.: These columns describe different features of mushrooms. All features are categorical, which makes it a good choice for classification and clustering problems.
+Cap shape: The cap can be bell-shaped (b), conical (c), convex (x), flat (f), knobbed (k), or sunken (s).
 
-Dataset Preview: Each row in the dataset represents a mushroom with attributes like cap shape, cap color, gill attachment, etc., and the target variable class (either 'p' for poisonous or 'e' for edible).
+Cap surface: The surface of the cap can be fibrous (f), grooved (g), scaly (y), or smooth (s).
+
+Cap color: The cap can be brown (n), buff (b), cinnamon (c), gray (g), green (r), pink (p), purple (u), red (e), white (w), or yellow (y).
+
+Gill-related Features:
+
+Gill attachment: The gills may be attached (a), descending (d), free (f), or notched (n).
+
+Gill spacing: The gills can be close (c), crowded (w), or distant (d).
+
+Gill size: The gills can be either broad (b) or narrow (n).
+
+Gill color: The gills may be black (k), brown (n), buff (b), chocolate (h), gray (g), green (r), orange (o), pink (p), purple (u), red (e), white (w), or yellow (y).
+
+Stalk-related Features:
+
+Stalk shape: The stalk can be enlarging (e) or tapering (t).
+
+Stalk root: The stalk root can be bulbous (b), club-shaped (c), cup-shaped (u), equal (e), rhizomorphs (z), rooted (r).
+
+Stalk surface above the ring: The surface above the ring can be fibrous (f), scaly (y), silky (k), or smooth (s).
+
+Stalk surface below the ring: The surface below the ring can be fibrous (f), scaly (y), silky (k), or smooth (s).
+
+Stalk color above the ring: The color above the ring can be brown (n), buff (b), cinnamon (c), gray (g), orange (o), pink (p), red (e), white (w), or yellow (y).
+
+Stalk color below the ring: The color below the ring can be brown (n), buff (b), cinnamon (c), gray (g), orange (o), pink (p), red (e), white (w), or yellow (y).
+
+Veil-related Features:
+
+Veil type: The veil can be partial (p) or universal (u).
+
+Veil color: The color of the veil can be brown (n), orange (o), white (w), or yellow (y).
+
+Ring number: The mushroom may have none (n), one (o), or two (t) rings.
+
+Ring type: The ring type can be cobwebby (c), evanescent (e), flaring (f), large (l), none (n), pendant (p), sheathing (s), or zone (z).
+
+Miscellaneous Features:
+
+Bruises: The mushroom may have bruises (t) or no bruises (f).
+
+Odor: The odor can be almond (a), anise (l), creosote (c), fishy (y), foul (f), musty (m), none (n), pungent (p), or spicy (s).
+
+Spore print color: The spore print color can be black (k), brown (n), buff (b), chocolate (h), green (r), orange (o), purple (u), white (w), or yellow (y).
+
+Population: The population may be abundant (a), clustered (c), numerous (n), scattered (s), several (v), or solitary (y).
+
+Habitat: The habitat can be grasses (g), leaves (l), meadows (m), paths (p), urban areas (u), waste (w), or woods (d).
 
 # Steps Taken in the Project
 1) Dataset Selection:
