@@ -16,7 +16,7 @@ Dataset Preview: Each row in the dataset represents a mushroom with attributes l
    
 We chose the Mushrooms dataset, which contains both labeled and unlabeled features, making it suitable for both classification (predicting whether a mushroom is edible or poisonous) and clustering (grouping similar mushrooms based on their attributes).
 
-3) Data Preprocessing:
+2) Data Preprocessing:
    
 - Handling Missing Values: We examined the dataset for any missing or incomplete values and handled them appropriately (e.g., replacing with mean, mode, or dropping rows).
 - Data Splitting: The dataset was split into training and testing sets for model evaluation. This ensures that we test the performance of our models on unseen data.
@@ -49,3 +49,8 @@ We chose the Mushrooms dataset, which contains both labeled and unlabeled featur
 
 # Conclusion
 This project helped in understanding how classification and clustering models can be used to solve real-world problems. It also highlighted the importance of techniques like cross-validation and tuning the parameters of algorithms (e.g., the number of clusters in K-Means). The insights gained from this analysis can help us apply these models in various practical applications such as mushroom classification for safety or feature-based clustering for similar group identification.
+
+# Contributions
+1) Jack was responsible for dataset selection, data preprocessing, model training and evaluation.
+2) Jing Yun was responsible for analysis and comparison, editing videos.
+3) Min Han was responsible for improving model performance.   
