@@ -52,5 +52,5 @@ This project helped in understanding how classification and clustering models ca
 
 # Contributions
 1) Jack was responsible for dataset selection, data preprocessing, model training and evaluation.
-2) Jing Yun was responsible for analysis and comparison, editing videos.
+2) Jing Yun was responsible for analysis and comparison, editing videos and readme file.
 3) Min Han was responsible for improving model performance.   
